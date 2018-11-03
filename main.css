@@ -21,6 +21,7 @@ body {
 h1 {
   font-size: 42pt;
   font-weight: bold;
+  letter-spacing: 5px;
   margin: 0;
 }
 
