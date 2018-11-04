@@ -21,6 +21,7 @@ body {
 h1 {
   font-size: 18pt;
   font-weight: bold;
+  letter-spacing: 2px;
 }
 
 img {
