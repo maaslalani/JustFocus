@@ -1,0 +1,74 @@
+:root {
+  --primary: #6866D6;
+  --secondary: #FFFFFF;
+  --main: 85vh;
+  --fluid: 15vh;
+}
+
+body {
+  overflow: hidden;
+  font-family: "Lato", sans-serif;
+  background-color: var(--primary);
+  color: var(--secondary);
+  text-align: center;
+  display: flex;
+  height: var(--main);
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+h1 {
+  font-size: 42pt;
+  font-weight: bold;
+  letter-spacing: 3px;
+  margin: 0;
+}
+
+img {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+p {
+  font-size: 14pt;
+}
+
+button {
+  background-color: var(--secondary);
+  color: var(--primary);
+  border: none;
+  outline: none;
+  cursor: pointer;
+  border-radius: 10px;
+  width: 20%;
+  min-width: 250px;
+  margin-top: 50px;
+  padding: 5px;
+  transition: all 0.25s;
+}
+
+button:hover {
+  box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.15);
+  transition: all 0.25s;
+}
+
+button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-right: 20px;
+}
+
+canvas {
+  position: absolute;
+  bottom: 0;
+  height: var(--fluid);
+  width: 100%;
+}
