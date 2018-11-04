@@ -19,10 +19,9 @@ body {
 }
 
 h1 {
-  font-size: 42pt;
+  font-size: 32pt;
   font-weight: bold;
   letter-spacing: 3px;
-  margin: 0;
 }
 
 img {
@@ -36,8 +35,14 @@ header {
   align-items: center;
 }
 
+#main {
+  position: absolute;
+  top: 20px;
+  left: 40px;
+}
+
 p {
-  font-size: 14pt;
+  font-size: 22pt;
 }
 
 button {
@@ -74,11 +79,18 @@ canvas {
 }
 
 #quote {
-  font-size: 22pt;
-  width: 50%;
+  font-size: 32pt;
+  width: 60%;
   min-width: 300px;
+  margin-top: 25px;
 }
 
 #author {
   font-style: italic;
+}
+
+@media only screen and (max-width: 600px) {
+    #main {
+      display: none;
+    }
 }
