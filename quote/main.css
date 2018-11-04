@@ -29,6 +29,11 @@ img {
   height: 40px;
 }
 
+#home {
+  color: var(--secondary);
+  text-decoration: none;
+}
+
 header {
   display: flex;
   justify-content: center;
