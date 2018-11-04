@@ -19,14 +19,13 @@ body {
 }
 
 h1 {
-  font-size: 32pt;
+  font-size: 18pt;
   font-weight: bold;
-  letter-spacing: 3px;
 }
 
 img {
-  padding-left: 20px;
-  padding-right: 20px;
+  width: 40px;
+  height: 40px;
 }
 
 header {
