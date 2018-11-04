@@ -72,3 +72,13 @@ canvas {
   height: var(--fluid);
   width: 100%;
 }
+
+#quote {
+  font-size: 22pt;
+  width: 50%;
+  min-width: 300px;
+}
+
+#author {
+  font-style: italic;
+}

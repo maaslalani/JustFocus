@@ -7,6 +7,7 @@
   <link rel="stylesheet" href="main.css">
   <link rel="shortcut icon" type="image/png" href="./Icons/lightning.png"/>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/paper.js/0.11.8/paper-full.min.js"></script>
+  <script src="quote.js"></script>
   <script type="text/paperscript" canvas="fluid">
   var values = {
     friction: 1.8,
@@ -139,12 +140,8 @@
 
   <p>Block Distracting Websites. Unleash Productivity.</p>
 
-  <button>
-    <button-container>
-      <img src="./Icons/chrome.svg">
-      <p>One Click Install</p>
-    </button-container>
-  </button>
+  <p id="quote"></p>
+  <p id="author"></p>
 
   <canvas id="fluid"></canvas>
 
